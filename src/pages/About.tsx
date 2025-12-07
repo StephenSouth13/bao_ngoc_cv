@@ -11,8 +11,8 @@ const About = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SEOHead 
-        title="About - Trịnh Bá Lâm | Sales & Business Development Expert"
-        description="Learn about Trịnh Bá Lâm's professional journey, expertise in sales management, business development, and 8+ years of experience driving market expansion and strategic partnerships."
+        title="About - Trần Bảo Ngọc | Sales & Business Development Expert"
+        description="Learn about Trần Bảo Ngọc's professional journey, expertise in sales management, business development, and 8+ years of experience driving market expansion and strategic partnerships."
       />
       <Header />
       <main className="pt-20">

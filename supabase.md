@@ -69,7 +69,7 @@ ALTER TABLE public.user_roles ENABLE ROW LEVEL SECURITY;
 ```sql
 CREATE TABLE public.hero_section (
     id UUID PRIMARY KEY DEFAULT gen_random_uuid(),
-    name TEXT NOT NULL DEFAULT 'Trịnh Bá Lâm',
+    name TEXT NOT NULL DEFAULT 'Trần Bảo Ngọc',
     title TEXT NOT NULL DEFAULT 'Sales & Business Development Expert',
     quote TEXT NOT NULL DEFAULT 'Kết nối – Thuyết phục – Bứt phá doanh số cùng đối tác chiến lược.',
     profile_image_url TEXT,

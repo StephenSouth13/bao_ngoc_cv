@@ -3,9 +3,9 @@ CREATE TABLE public.hero_section (
   id UUID NOT NULL DEFAULT gen_random_uuid() PRIMARY KEY,
   created_at TIMESTAMP WITH TIME ZONE DEFAULT now(),
   updated_at TIMESTAMP WITH TIME ZONE DEFAULT now(),
-  name TEXT NOT NULL DEFAULT 'Trịnh Bá Lâm',
-  title TEXT NOT NULL DEFAULT 'Sales & Business Development Expert',
-  quote TEXT NOT NULL DEFAULT 'Kết nối – Thuyết phục – Bứt phá doanh số cùng đối tác chiến lược.',
+  name TEXT NOT NULL DEFAULT 'Trần Bảo Ngọc',
+  title TEXT NOT NULL DEFAULT 'Executive Assistant | International Relations | Interpreter',
+  quote TEXT NOT NULL DEFAULT 'Supporting boards, coordinating international partners, and leading youth empowerment projects.',
   profile_image_url TEXT,
   background_image_url TEXT
 );
@@ -42,4 +42,8 @@ EXECUTE FUNCTION public.update_updated_at_column();
 
 -- Insert default data
 INSERT INTO public.hero_section (name, title, quote) 
-VALUES ('Trịnh Bá Lâm', 'Sales & Business Development Expert', 'Kết nối – Thuyết phục – Bứt phá doanh số cùng đối tác chiến lược.');
+VALUES (
+  'Trần Bảo Ngọc',
+  'Executive Assistant | International Relations | Interpreter',
+  'Supporting boards, coordinating international partners, and leading youth empowerment projects.'
+);

@@ -51,7 +51,7 @@ insert into public.footer_links (section, label, url, sort_order)
 values
 ('Company', 'About', '/about', 1),
 ('Company', 'Contact', '/contact', 2),
-('Resources', 'CV', '/CV_TrinhBaLam.pdf', 1),
+('Resources', 'CV', '/CV_TranBaoNgoc.pdf', 1),
 ('Social', 'LinkedIn', 'https://linkedin.com/in/your-profile', 1)
 on conflict do nothing;
 

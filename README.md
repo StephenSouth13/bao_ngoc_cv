@@ -1,4 +1,4 @@
-# Portfolio Website - Trịnh Bá Lâm
+# Portfolio Website - Trần Bảo Ngọc
 
 Trang web portfolio cá nhân với React, TypeScript, Tailwind CSS và Lovable Cloud.
 

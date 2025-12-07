@@ -106,7 +106,7 @@ const BlogDetail = () => {
   return (
     <>
       <SEOHead 
-        title={`${blog.title} - Blog Trịnh Bá Lâm`}
+        title={`${blog.title} - Blog Trần Bảo Ngọc`}
         description={blog.excerpt || blog.content.slice(0, 160)}
         image={blog.image_url || undefined}
       />

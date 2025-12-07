@@ -9,8 +9,8 @@ const Contact = () => {
   return (
     <div className="min-h-screen bg-background text-foreground">
       <SEOHead 
-        title="Contact - Trịnh Bá Lâm | Get In Touch"
-        description="Contact Trịnh Bá Lâm for sales consulting, business development opportunities, strategic partnerships, or professional inquiries."
+        title="Contact - Trần Bảo Ngọc | Get In Touch"
+        description="Contact Trần Bảo Ngọc for sales consulting, business development opportunities, strategic partnerships, or professional inquiries."
       />
       <Header />
       <main className="pt-20">

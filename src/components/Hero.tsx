@@ -8,9 +8,10 @@ import heroBg from "@/assets/hero-bg.jpg";
 
 const Hero = () => {
   const [heroData, setHeroData] = useState({
-    name: "Trịnh Bá Lâm",
-    title: "Sales & Business Development Expert",
-    quote: "Kết nối – Thuyết phục – Bứt phá doanh số cùng đối tác chiến lược.",
+    name: "Trần Bảo Ngọc",
+   title: "Trợ lý Ban Điều Hành | Quan hệ Quốc tế | Phiên dịch",
+    quote:
+      "Hỗ trợ lãnh đạo, kết nối đối tác quốc tế và dẫn dắt các dự án phát triển thanh niên.",
     profile_image_url: null as string | null,
     background_image_url: null as string | null,
   });
@@ -122,7 +123,7 @@ const Hero = () => {
               size="lg"
               variant="outline"
               className="border-primary text-primary hover:bg-primary/10 px-8"
-              onClick={() => window.open("/CV_TrinhBaLam.pdf", "_blank")}
+              onClick={() => window.open("/CV_TranBaoNgoc.pdf", "_blank")}
             >
               <Download className="mr-2 h-5 w-5" />
               Tải CV

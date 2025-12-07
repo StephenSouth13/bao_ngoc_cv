@@ -76,7 +76,7 @@ const Footer = () => {
           transition={{ duration: 0.6 }}
           className="flex flex-col items-center space-y-6"
         >
-          <div className="text-2xl font-bold text-gradient">Trịnh Bá Lâm</div>
+          <div className="text-2xl font-bold text-gradient">Trần Bảo Ngọc</div>
 
           <div className="flex items-center gap-4">
             {(socials.length > 0 ? socials : [
@@ -146,7 +146,7 @@ const Footer = () => {
           transition={{ duration: 0.4 }}
           className="text-center text-sm text-muted-foreground"
         >
-          <p>© {year} Trịnh Bá Lâm. All rights reserved.</p>
+          <p>© {year} Trần Bảo Ngọc. All rights reserved.</p>
         </motion.div>
       </div>
     </footer>
